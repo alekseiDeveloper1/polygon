@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+.main__title {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 60px;
+}
+.main__img {
+    vertical-align: middle;
+    width: 50%;
+}
