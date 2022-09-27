@@ -1,7 +1,17 @@
 body {
     margin: 0;
 }
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+li  {
+    line-height: 2;
+    list-style-type: none;
+}
 .main__title {
+    font-family: 'Bungee';
+    line-height: 1;
     display: inline-block;
     width: 49%;
     text-align: center;
@@ -22,6 +32,8 @@ body {
     margin: 0 auto;
 }
 .info__title {
+    font-family: 'Bungee';
+    line-height: 1;
     font-weight: 400;
     font-size: 60px;
 }
@@ -35,6 +47,17 @@ body {
     height: 110px;
     background: rgba(73, 182, 255, 0.2);
 }
+.info__block_middle {
+    width: 68px;
+    height: 68px;
+    background: rgba(73, 182, 255, 0.2);
+}
+
+.info__block_the-smallest {
+    width: 26px;
+    height: 26px;
+    background: rgba(73, 182, 255, 0.2);
+}
 .info__block_big-center {
     margin: 0 auto;
 }
@@ -46,3 +69,19 @@ body {
 .info__block_small-center {
     margin: 0 auto;
 }
+.contacts {
+    margin: 0 0 100px 0;
+}
+.contacts__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__block {}
+.block-contacts {}
+.block-contacts__title {
+    font-family: 'Bungee';
+    font-weight: 400;
+    font-size: 24px;
+}
+.block-contacts__desc {}
+.contacts__logo {}
