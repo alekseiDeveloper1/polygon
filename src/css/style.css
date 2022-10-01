@@ -9,6 +9,9 @@ li  {
     line-height: 2;
     list-style-type: none;
 }
+span {
+    line-height: 32px;
+}
 .main__title {
     font-family: 'Bungee';
     line-height: 1;
@@ -28,6 +31,7 @@ li  {
     text-align: center;
 }
 .container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
 }
@@ -85,3 +89,21 @@ li  {
 }
 .block-contacts__desc {}
 .contacts__logo {}
+
+
+.photo {
+    text-align: right;
+    margin: 0px 0px 100px 0px;
+}
+.photo div {
+    margin-left: auto;
+}
+.photo__img {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 2;
+}
+.photo__img-big {
+    margin-top: 68px;
+}

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Bungee:regular" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Polygon</title>
 </head>
 <body>
@@ -65,5 +69,19 @@
             <div class="info__block_big"></div>
         </div>
     </section>
+    <section class="photo">
+        <div class="container">
+            <div class="info__block_big"></div>
+            <img class="wow photo__img animate__animated animate__fadeInTopLeft" src="./img/2.jpg" alt="car">
+            <div class="photo__img-big"><img class="wow animate__animated animate__fadeInBottomRight" src="./img/3.jpg" alt="car"></div>
+            <div class="info__block_the-smallest"></div>
+            <span>app’n’roll hero illustration</span>
+            <div class="info__block_big"></div>
+        </div>
+    </section>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
